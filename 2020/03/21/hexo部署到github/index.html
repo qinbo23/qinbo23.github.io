@@ -7,15 +7,15 @@
   
   <title>hexo部署到github | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="一.创建blog1.初始化只能在空文件夹下进行 1hexo init 2.日常操作1234hexo s &#x2F;&#x2F;启动(start&#x2F;server) 启动状态下.md文件修改保存的变化可以立刻在相应端口看到看到hexo n &quot;文件名&quot; &#x2F;&#x2F;创建(new) 在source&#x2F;_posts下生成.md文件hexo g &#x2F;&amp;">
+  <meta name="description" content="一.创建blog1.初始化只能在空文件夹下进行 1hexo init 2.日常操作1234hexo s &#x2F;&#x2F;启动(server) 启动状态下.md文件修改保存的变化可以立刻在相应端口看到看到hexo n &quot;文件名&quot; &#x2F;&#x2F;创建(new) 在source&#x2F;_posts下生成.md文件hexo g &#x2F;&#x2F;生成(gen">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hexo部署到github">
 <meta property="og:url" content="http://yoursite.com/2020/03/21/hexo%E9%83%A8%E7%BD%B2%E5%88%B0github/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="一.创建blog1.初始化只能在空文件夹下进行 1hexo init 2.日常操作1234hexo s &#x2F;&#x2F;启动(start&#x2F;server) 启动状态下.md文件修改保存的变化可以立刻在相应端口看到看到hexo n &quot;文件名&quot; &#x2F;&#x2F;创建(new) 在source&#x2F;_posts下生成.md文件hexo g &#x2F;&amp;">
+<meta property="og:description" content="一.创建blog1.初始化只能在空文件夹下进行 1hexo init 2.日常操作1234hexo s &#x2F;&#x2F;启动(server) 启动状态下.md文件修改保存的变化可以立刻在相应端口看到看到hexo n &quot;文件名&quot; &#x2F;&#x2F;创建(new) 在source&#x2F;_posts下生成.md文件hexo g &#x2F;&#x2F;生成(gen">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-03-21T12:50:06.000Z">
-<meta property="article:modified_time" content="2020-03-21T13:55:50.793Z">
+<meta property="article:modified_time" content="2020-03-21T14:06:49.565Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
@@ -90,15 +90,15 @@
       
         <h2 id="一-创建blog"><a href="#一-创建blog" class="headerlink" title="一.创建blog"></a>一.创建blog</h2><h3 id="1-初始化"><a href="#1-初始化" class="headerlink" title="1.初始化"></a>1.初始化</h3><p>只能在空文件夹下进行</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
-<h3 id="2-日常操作"><a href="#2-日常操作" class="headerlink" title="2.日常操作"></a>2.日常操作</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo s &#x2F;&#x2F;启动(start&#x2F;server) 启动状态下.md文件修改保存的变化可以立刻在相应端口看到看到</span><br><span class="line">hexo n &quot;文件名&quot; &#x2F;&#x2F;创建(new) 在source&#x2F;_posts下生成.md文件</span><br><span class="line">hexo g &#x2F;&#x2F;生成(generate) 生成public文件 没有生成的文件不会推送至github</span><br><span class="line">hexo clean &#x2F;&#x2F;删除public文件</span><br></pre></td></tr></table></figure>
+<h3 id="2-日常操作"><a href="#2-日常操作" class="headerlink" title="2.日常操作"></a>2.日常操作</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo s &#x2F;&#x2F;启动(server) 启动状态下.md文件修改保存的变化可以立刻在相应端口看到看到</span><br><span class="line">hexo n &quot;文件名&quot; &#x2F;&#x2F;创建(new) 在source&#x2F;_posts下生成.md文件</span><br><span class="line">hexo g &#x2F;&#x2F;生成(generate) 生成public文件 </span><br><span class="line">hexo clean &#x2F;&#x2F;删除public文件</span><br></pre></td></tr></table></figure>
 
 <h2 id="二-部署到github"><a href="#二-部署到github" class="headerlink" title="二.部署到github"></a>二.部署到github</h2><h3 id="1-在github上创建新的repository，命名为：xxx-github的username-github-io"><a href="#1-在github上创建新的repository，命名为：xxx-github的username-github-io" class="headerlink" title="1.在github上创建新的repository，命名为：xxx(github的username).github.io"></a>1.在github上创建新的repository，命名为：xxx(github的username).github.io</h3><h3 id="2-安装部署插件"><a href="#2-安装部署插件" class="headerlink" title="2.安装部署插件"></a>2.安装部署插件</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install hexo-delopyer-git --save</span><br></pre></td></tr></table></figure>
-<h3 id="3-在-config-yml文件中设置deploy选项-deploy处修改"><a href="#3-在-config-yml文件中设置deploy选项-deploy处修改" class="headerlink" title="3.在_config.yml文件中设置deploy选项 deploy处修改"></a>3.在_config.yml文件中设置deploy选项 deploy处修改</h3><h3 id="4-部署到github"><a href="#4-部署到github" class="headerlink" title="4.部署到github"></a>4.部署到github</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+<h3 id="3-在-config-yml文件中设置deploy选项-deploy处修改"><a href="#3-在-config-yml文件中设置deploy选项-deploy处修改" class="headerlink" title="3.在_config.yml文件中设置deploy选项 deploy处修改"></a>3.在_config.yml文件中设置deploy选项 deploy处修改</h3><h3 id="4-部署到github"><a href="#4-部署到github" class="headerlink" title="4.部署到github"></a>4.部署到github</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d &#x2F;&#x2F;只会部署上传public中的文件</span><br></pre></td></tr></table></figure>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/03/21/hexo%E9%83%A8%E7%BD%B2%E5%88%B0github/" data-id="ck81oe5730001vcv068lb0b7r" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/03/21/hexo%E9%83%A8%E7%BD%B2%E5%88%B0github/" data-id="ck81oslq60001b4v000uu2mbr" class="article-share-link">Share</a>
       
       
     </footer>
